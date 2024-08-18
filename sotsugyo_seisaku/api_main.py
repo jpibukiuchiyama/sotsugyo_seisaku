@@ -50,7 +50,7 @@ def main():
         if keys[pygame.K_x]: a.setchar(23,param_MCJE.GLOWSTONE,a_x,a_y,a_z)
         if keys[pygame.K_y]: a.setchar(24,param_MCJE.GLOWSTONE,a_x,a_y,a_z)
         if keys[pygame.K_z]: a.setchar(25,param_MCJE.GLOWSTONE,a_x,a_y,a_z)
-        if keys[pygame.K_LALT]: a_y = a_y + 7
+        if keys[pygame.K_LALT]: a_y = a_y - 7
         if keys[pygame.K_LSHIFT]: a_x = 5
 
         #screen.blit(image, (x, y))  # 描画
